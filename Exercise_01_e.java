@@ -5,19 +5,18 @@ public class Main {
 
         int largeur = 5;
         int hauteur = 5;
-        int count = 0;
 
         for (int colonne = 0; colonne < hauteur; ++colonne) {
             for (int ligne = 0; ligne < largeur; ++ligne) {
-                if (ligne <= count) {
+                if (ligne <= colonne) {
                     System.out.print("X");
                 }
                 else {
                     System.out.print(" ");
                 }
             }
-            count++;
             System.out.println();
         }
     }
 }
+
