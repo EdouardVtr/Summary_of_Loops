@@ -5,7 +5,7 @@ public class Main {
         int hauteur = 5;
 
         for (int colonne = 0; colonne < hauteur; ++colonne) {
-            for (int ligne =0; ligne < largeur; ++ligne) {
+            for (int ligne = 0; ligne < largeur; ++ligne) {
                 if (colonne == 0 || colonne == 4) {
                     if (ligne == 0 || ligne == 4) {
                         System.out.print("X");
